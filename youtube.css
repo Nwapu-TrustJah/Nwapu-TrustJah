@@ -1,0 +1,92 @@
+.image-1 {
+  width: 100%;
+}
+
+.image-2 {
+  width: 100%;
+}
+
+.imge {
+  position: relative;
+  margin-bottom: 5px;
+}
+.ta {
+
+width: 150px;
+  margin-left:0%;
+  margin-top:4px ;
+}
+
+.channel {
+  width: 35px;
+  border-radius: 200px;
+  margin-top: 4px;
+}
+
+.profil {
+  border-radius: 200px;
+  width: 35px;
+}
+.time {
+  position: absolute;
+  font-family: roboto, arial;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  right: 10px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 5px;
+  bottom: 10px;
+}
+
+.talking {
+  font-weight: 750;
+  width: 100%;
+  line-height: 18px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-family: Arial;
+  color: black;
+  margin-top: 2px;
+}
+
+.months {
+  line-height: 10px;
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.marque {
+  color: rgb(96, 96, 96);
+  margin-top: 6px;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.video-info-grid {
+  display: grid;margin-top:10px ;
+  grid-template-columns: 50px 1fr;
+}
+ 
+ 
+ 
+ @media screen and (max-width:767px)
+ {
+.total-grid {grid-template-columns: 1fr;}
+
+}
+
+.total-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 15px;
+     
+padding: bottom 0px;
+
+}
+    
+body { max-width: 100vw;}
+
